@@ -1,3 +1,10 @@
+--[[
+dds_parse, A parsing module that translates a simple custom format useful for textbox dialogues into LUA tables.
+
+Copyright (c) 2020 Genshin <emperor_genshin@hotmail.com>
+License: GPLv3
+--]]
+
 local dds = {}
 
 --Parse custom dialogue format from file and parse it as a LUA table
