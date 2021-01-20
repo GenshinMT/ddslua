@@ -43,8 +43,8 @@ function dds.parse(filename, dir)
 
       if not dialogues[dialogue] then
         dialogues[dialogue] = {}
-        dialogues[dialogue]["character"] = character or "?CharacterName?"
-        dialogues[dialogue]["cameo"] = cameo or "blank.png"
+        dialogues[dialogue]["character"] = character or ""
+        dialogues[dialogue]["cameo"] = cameo or ""
         dialogues[dialogue]["lines"] = {}
       end
 
