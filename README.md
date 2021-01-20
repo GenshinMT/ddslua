@@ -1,7 +1,7 @@
 ![Status](https://img.shields.io/badge/status-work%20in%20progress-%23bb77d1)
 ![licence](https://img.shields.io/github/license/GenshinMT/dds_parse)
 # ddslua (Dialogues Done Simple)
-A parsing module that translates a simple custom format useful for textbox dialogues into LUA tables
+A parsing module that translates a simple custom format (dds) useful for textbox dialogues into LUA tables
 
 ## Usage
 
