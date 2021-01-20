@@ -13,7 +13,7 @@ dds = require "dds"
 
 The module provides the following function:
 
-***dds.parse(file, directory)***
+**dds.parse(file, directory)**
 
 Returns a table value representing the decoded data from the file.
 
