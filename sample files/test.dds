@@ -1,0 +1,33 @@
+## This is just a Sample of the format that dds_parse translates
+Character: My Character
+Cameo: my_character_image.png
+
+## Start of the Dialogue
+
+[My Dialogue]
+<line>
+  Hello World!
+</line>
+<line>
+  Pick a Number.{question}
+</line>
+
+<question> 
+  <if> One
+    <qline>
+      You've picked 1
+    </qline>
+  <if> Two
+    <qline>
+      You've picked 2
+    </qline>
+    <qline>
+      Wise Choice!
+    </qline>
+</question>
+
+<line>
+  Goodbye!
+</line>
+
+## End of the Dialogue
