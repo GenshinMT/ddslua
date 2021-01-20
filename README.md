@@ -3,4 +3,20 @@
 # dds_parse (Dialogues Done Simple)
 A parsing module that translates a simple custom format useful for textbox dialogues into LUA tables
 
-Source Code Licence: GPLv3
+## Usage
+
+The **dds.lua** file should be dropped into an existing project and required by it:
+
+```lua
+dds = require "dds"
+```
+
+The module provides the following function:
+
+***dds.parse(file, directory)***
+
+Returns a table value representing the decoded data from the file.
+
+```lua
+dds.parse("test.dds", "/dds_parse/sample files/")
+```
